@@ -20,7 +20,7 @@ body {
     width: 280px;
     height: 100vh;
     background: #0f172a;
-    color: #fff;
+    color: black;
     position: fixed;
     left: 0;
     top: 0;
@@ -226,4 +226,5 @@ footer {
 }
 .section h3{
     margin-top: 15px;
+
 }
