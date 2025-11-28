@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dhanush C T | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+    <!-- LEFT FIXED PROFILE SIDEBAR -->
+    <aside class="sidebar">
+        <div class="sidebar-inner">
+            <div class="sidebar-profile">
+                <img src="Img/profile.jpg" alt="Akash Profile">
+            </div>
+
+            <h2 class="name">Dhanush C T</h2>
+            <p class="role">Computer Science Student</p>
+
+            <p class="email">
+                📧 <a href="mailto:dhanush8296@gmail.com">dhanush8296@gmail.com</a>
+            </p>
+
+            <nav class="side-nav">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </aside>
+
+    <!-- RIGHT MAIN CONTENT -->
+    <main class="main-content">
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section">
+            <h1>Hello, I'm <span>Dhanush C T</span> </h1>
+            <p class="intro">
+                A passionate Computer Science student exploring programming,
+                web development, and building useful mini-projects.
+            </p>
+            <a href="DHANU.pdf" download class="btn">Download Resume</a>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Python</div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>B.E in Computer Science</h3>
+                    <p>Manlad Collegeof Engineering</p>
+                    <p class="year">2025 Present</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>PUC / 12th</h3>
+                    <p>DVS PU College</p>
+                    <p class="year">Completed 2023</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS (XML) -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <h3> Samrt task</h3>
+            <p>Productivity Task Manager Web App Description:  SmartTask is a full-stack task management application that allows users to create, edit, categorize, and prioritize tasks. It includes features like 
+                deadlines, reminders, and a progress tracker. The app supports user authentication and stores data in a secure</p>
+            
+            <h3>ShopEase</h3>
+            <p>E-Commerce Product Catalog Description:  ShopEase is a demo e-commerce web application where users can browse products, filter by categories, view 
+                product details, add items to a cart, and simulate checkout. The admin panel allows product management.</p>
+            <h3>CityGuide</h3>
+            <p>
+                Interactive Location Discovery Website Description:  CityGuide is a location-based website that displays restaurants, tourist spots, hotels, and services using a map API. Users can search places, view ratings, and check recommended routes.
+
+            </p>
+                <!-- <div id="projects-container">
+               <h3> Samrt task</h3> -->
+
+            </div>
+        </section>
+
+        <!-- ACHIEVEMENTS -->
+        <section id="achievements" class="section">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Participated in hackathons.</li>
+                <li>Completed multiple mini projects.</li>
+            </ul>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Front-End Web Development Certification</li>
+                <li>Full-Stack Web Development Certification</li>
+                <li>JavaScript & React Developer Certification</li>
+                
+            </ul>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+
+            <!-- <form action="contact_submit.php" method="POST">
+                <label>Name</label>
+                <input type="text" name="name" required>
+
+                <label>Email</label>
+                <input type="email" name="email" required>
+
+                <label>Message</label>
+                <textarea name="message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+                <p id="form-status"></p>
+            </form> -->
+
+            <!-- <div class="contact form"> -->
+            <form action="contact_submit.php" method="POST">
+            <div class="input-box">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Ex: abc@gmail.com (Gmail Only)" required>
+                <textarea name="Message" rows="6" placeholder="Text your message" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+                </div>
+            </form>
+            <div id="message-status"></div>
+        <!-- </div> -->
+        </section>
+
+        <footer>
+            © <span id="year"></span> Dhanush. All Rights Reserved.
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
